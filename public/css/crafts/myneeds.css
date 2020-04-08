@@ -1,0 +1,62 @@
+#cont1
+{
+    background-color: #EFEFEF;
+}
+#cont1 #offers1
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*************************************/
+.wlcome
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wlcome h1
+{
+    font-weight: bold;
+}
+.wlcome .lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.wlcome h1 span
+{
+    color: #FF9000;
+}
+/**************************************/
+/*#offers1 .container
+{
+    background-color: rgba(173, 169, 169, 0.8);
+}*/
+#offer1
+{   
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 35px;
+}
+#offer1 img
+{
+    border-radius: 10px;
+}
+#offer1 img:hover
+{
+    box-shadow: 2px 2px 2px #ccc,-2px -2px 2px #ccc;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#offer1 .btn
+{
+    margin-bottom: 5px;
+}
+#cont1 i:hover
+{
+    cursor: pointer;
+    color: #9B0000;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}

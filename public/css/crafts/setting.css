@@ -1,0 +1,79 @@
+#Setting
+{
+    padding-top: 90px;
+}
+#Setting h1
+{
+    color: #030744;
+    text-align: center;
+}
+#Setting #mainset
+{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #98AED3;
+    padding: 20px
+}
+#Setting #mainset h3
+{
+    color: #030744;
+    margin-left: 10px;
+}
+#Setting #mainset h4
+{
+    color: #3F002D;
+    font-size: 19px;
+}
+#Setting #mainset h3:hover
+{
+    cursor: pointer;
+    color: blue;
+}
+#Setting #mainset input
+{  
+    margin: 10px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    text-indent: 30px;
+    color: #3C5452;
+}
+#Setting #mainset input[type="file"] 
+{
+    margin-left: 10px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px #fff solid;
+    font-size: 15px;
+    text-indent: 35px;
+    color: #FFF;
+    background-color: #FFF;
+}
+#Setting #mainset input[type="file"]:hover
+{
+    cursor: pointer;
+}
+#Setting #mainset #savingpass
+{
+    margin-left: 200px;
+}
+#Setting #mainset input[type="submit"] 
+{
+    width: 150px;
+    margin-left: 650px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #FF9000;
+    text-indent: 10px;
+    color: #7c6e45;
+}
+#Setting #mainset input[type="submit"]:hover
+{
+    background-color: #FF637D;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}

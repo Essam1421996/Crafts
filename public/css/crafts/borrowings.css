@@ -1,0 +1,63 @@
+#cont
+{
+    background-color: #EFEFEF;
+}
+#cont #offers
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#offer
+{
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 35px;
+}
+#offer img
+{
+    border-radius: 10px;
+}
+#offer img:hover
+{
+    box-shadow: 2px 2px 2px #ccc,-2px -2px 2px #ccc;
+    cursor: pointer;
+    opacity: 0.9;
+}
+#offer .btn
+{
+
+    font-size: 20px;
+}
+#offer .btn:hover
+{
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+#newitem
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom:  40px;
+    background-color: #000000;
+    color: #fff;
+    margin: 10px auto;
+}
+#newitem:hover
+{
+    color: #F44663;
+}
+#Newborrow
+{
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    opacity: 1;
+    color: #fff;
+}
+#Borrowings #Newborrow input[type="file"]:hover
+{
+    cursor: pointer;
+}

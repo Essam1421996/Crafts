@@ -1,0 +1,184 @@
+body{padding-top: 40px;overflow: hidden;}
+/**form**/
+.container-form{width: 900px;text-align: center;}
+.container-form .btn-primary{width: 350px;margin-top:20px;background-color:#1abc9c;  }
+.container-form .my-width{width: 250px;}
+.navbar-brand hvr-hang {color: #1abc9c;}
+
+/**carousel**/
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    height: 550px;
+    width: 100%;   
+}
+.carousel-caption .lead{font-size: 18px;color: #ddd;}
+.carousel-caption
+{ 
+    background: rgba(1,1,1,.3);
+    bottom: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.carousel-caption h1{font-family: fantasy;}
+.carousel-caption .btn-danger ,.carousel-caption .btn-primary 
+{
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    margin: 3px;
+    text-align: center;
+    padding-top:  10px;
+    font-family:  fantasy;
+    font-weight: 400;
+}
+
+/** about **/
+.about{padding-bottom: 0px;padding-top: 60px;}
+.about h1 ,.Services h1 , .our-works h1 , .contact-us h1,.container-form h1{display:inline-block;color:#1abc9c;font-family: fantasy;font-size:40px }
+.about .lead{color: #2c2c33;font-size: 18px;}
+
+/**service**/
+.Services{
+    background: url("../img/serv.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px;  
+}
+.Services .serve
+{
+    background: rgba(2,2,2,0.8);
+    color: #fff;
+    min-height: 450px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Services .service {padding-bottom: 70px; }
+.Services h1{padding-bottom: 30px;}
+
+/**our-works**/
+.our-works {padding-bottom: 130px;}
+.our-works h1 {padding-bottom: 30px;}
+
+/**footer**/
+.contact-us
+{
+    background: url("../img/footer.jpg") no-repeat center center fixed;
+    min-height: 450px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.contact-us .contact
+{
+    background: rgba(9,9,9,0.8);
+    min-height: 450px;
+    color: #fff;
+    padding-top: 18px;
+    padding-bottom: 15px;
+}
+.contact-us textarea.form-control{height: 109px;}
+.contact-us input[type=text] ,
+.contact-us textarea
+{
+    background: rgba(82,78,78,.5);
+    color: black;
+    border: none;
+}
+.contact-us .btn-danger{background-color:#1abc9c; }
+
+.contact-us .media{padding-bottom: 10px;}
+.contact-us .copyright{background: #333;padding: 15px 0; color: #fff;  }
+.contact-us .container{margin-bottom: 20px;}
+
+.my-color{color: #1abc9c;}
+.my-par{font-size: 17px;}
+.our-works .im-works{margin-bottom: 20px}
+.my-wid{
+    height: 250px;
+    width: 250px;
+}
+.my-wid-2{
+    height: 250px;
+    width: 335px;
+}
+
+.additem
+{
+    /*padding-top: 25px;
+    min-height: 75px;
+
+  background-color: #EEE;*/
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+/*breabcrumb*/
+.breadcrumb-holder
+{
+background-color: #F5F5F5;
+
+}
+.breadcrumb
+{
+    padding: :10px 0;
+    margin: 0;
+    margin-top: 5px;
+    
+}
+
+.form
+{
+    margin-right: 50px;
+    padding-right: 10px; 
+    margin-bottom: 150px;
+    padding-bottom: 150px;
+}
+.asd
+{
+    margin-right: 50px;
+}
+.mar
+{
+text-align: center;
+padding-left:100px;
+}
+.mar1
+{
+text-align: center;
+padding-left:70px;
+}
+.mar2
+{
+    margin-bottom:10px; 
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.ind
+{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.forget
+{
+    padding: 10px;
+    padding-left: 70px;
+}
+.mar3
+{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 200px) and (max-width: 1000px) {
+    .carousel-inner { height: 820px;  font-size: 12px; padding: 0px; }
+   
+}
+
+.carousel-inner img{
+
+    width: 100%;
+    height: 100%;
+}

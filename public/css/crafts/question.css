@@ -1,0 +1,45 @@
+#Question
+{
+    background-image: url("../../salfny_images/reg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px;
+}
+#Question #conts
+{
+    width: 90%;
+    padding: 40px;
+    background-color: rgba(99, 99, 99, 0.9);
+    color: #FFFFFF;
+}
+#questioning h4
+{
+    color: #0B0038;
+}
+#questioning p,ol,h5
+{
+    color: #D3CC9E;
+    font-size: 17px;
+}
+#questioning i
+{
+    font-size: 40px;
+    color: #FFF;
+}
+#makequ input
+{
+    border: none;
+    margin-bottom: 3px;
+}
+#makequ input[type="text"]
+{
+    border-radius: 4px 0px 0px 4px;
+    color: #333;
+}
+#makequ input[type="submit"]
+{
+    border-radius: 0px 4px 4px 0px;
+}
+/***************************************************/

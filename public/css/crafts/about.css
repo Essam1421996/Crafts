@@ -1,0 +1,71 @@
+.about
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about .lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1 span
+{
+    color: #FF9000;
+}
+/**************************************/
+.about
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about .lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1 span
+{
+    color: #FF9000;
+}
+/*************************************/
+.features
+{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #EEE;
+}
+.features h1
+{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.features .lead
+{
+    color: #888;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.features h1 span
+{
+    color: #FF9000;
+}
+.features .feat p
+{
+    line-height: 2em;
+}
+.features .feat .glyphicon
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/************************************/

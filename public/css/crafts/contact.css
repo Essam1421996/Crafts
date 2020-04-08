@@ -1,0 +1,41 @@
+#Contact
+{
+    background-image: url("../../salfny_images/slide7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#Contact #contactus
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(9,9,9,0.7);
+    color: #DDD;
+}
+#contactus i
+{
+    font-size: 40px;
+    color: #FFF;
+}
+.form-control
+{
+    text-indent: 10px;
+}
+#contactus .btn
+{
+    margin-bottom: 5px;
+}
+#contactus p
+{
+    margin-bottom: 40px;
+}
+textarea.input-lg
+{
+    height: 108px;
+}
+#contactus input
+{
+    border: none;
+}
+/***************************************************/

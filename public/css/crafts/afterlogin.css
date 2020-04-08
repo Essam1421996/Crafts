@@ -1,0 +1,340 @@
+body
+{
+    background-color: #EFEFEF;
+}
+
+.navbar
+{
+    border-radius: 0px;
+    margin-bottom: 20px;
+    background-color: #070707;
+}
+.footer{width:100%;}
+.footer_bottom {
+	padding: 2em 0;
+	background: #1C1E1D;
+        text-align:center;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #BBB;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav
+> .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color: #2b2b2b;
+}
+.navbar-inverse
+{
+    border-bottom: 3px solid #ffffff;
+}
+/*************************************/
+#logo
+{
+    margin-top:-15px;
+    
+}
+#logo h1
+{
+    color:  #1abc9c;
+    font-family:"fantasy";
+    font-weight: bold;
+}
+#logo b
+{
+    font-size: 45px;
+    color: #1abc9c;
+    font-family: "fantasy";
+    font-weight: bold;
+}
+#logo:hover
+{
+    cursor: pointer;
+}
+#logo h1:hover
+{
+    text-shadow: 3px 3px 3px #FFF ;
+}
+/****************************************/
+#footer
+{
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#222222;
+    color: #AAA;
+}
+#footer h3
+{
+    color: #936E16;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+#footer a
+{
+    color: #AAA;
+}
+#footer a:hover
+{
+    color: #FFF;
+}
+#footer #pages
+{
+    overflow: hidden;
+}
+#footer #pages li
+{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+#footer #social
+{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+#footer #social li
+{
+    display: inline;
+    opacity: 0.7;
+    margin: 3px;
+    color: #757575;
+}
+#footer #social a
+{
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+#footer #social #s1:hover
+{
+    opacity: 1;
+    color: #4e598f;
+}
+#footer #social #s2:hover
+{
+    opacity: 1;
+    color: #55acee;
+}
+#footer #social #s3:hover
+{
+     opacity: 1;
+     color: #75b73b;
+}
+#footer #social #s4:hover
+{
+     opacity: 1;
+     color: #cf4c3c;
+}
+#footer #social #s5:hover
+{
+     opacity: 1;
+     color: #d22215;
+}
+#footer #social #s6:hover
+{
+     opacity: 1;
+     color: #6c27b3;
+}
+#footer #social #s7:hover
+{
+     opacity: 1;
+     color: #65a2d9;
+}
+#history h2
+{
+    color: #000;
+    font-family:"Lucida Handwriting";
+    font-size: 26px;
+}
+#history b
+{
+    font-size: 40px;
+    font-family: "Vivaldi";
+    color: #FF9000;
+    font-weight: bold;
+}
+#rights ul
+{
+    list-style: none;
+}
+#rights li
+{
+    display: inline;
+    color: #ffffff;
+    margin-left: 5px;
+}
+#rights a
+{
+    text-decoration: none;
+    color: #848484;
+}
+#rights a:hover
+{
+    text-decoration: underline;
+}
+/*****************************************/
+#Post
+{
+    padding: 10px;
+}
+#Me #smallpost input[type="text"]
+{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #E5DECE;
+}
+#Post input[type="submit"]
+{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #ff9f1c;
+    margin-top: 5px;
+}
+#Post input[type="submit"]:hover
+{
+    background-color:#6d9093;
+    cursor: pointer;
+}
+#posts
+{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/************************************/
+#posts #post1
+{
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px #000 solid;
+    border-radius: 15px;
+}
+#posts #post1 #head img
+{
+    float: left;
+    border-radius: 50px;
+    background-color: #D19C00;
+}
+#posts #post1 #head a
+{
+    text-decoration: none;
+    font-size: large;
+}
+#posts #post1 #head a:hover
+{
+    color: blue;
+    cursor: pointer
+}
+#posts #post1 #contain
+{
+    width: 90%;
+    font-size: 20px;
+    color: #3E5556;
+}
+#posts #post1 #coments
+{
+    width: 90%;
+    font-size: 25px;
+    color: #3e5556;
+    float: left;
+    clear: both;
+}
+#posts #post1 #coments #head img
+{
+    float: left;
+    border-radius: 50px;
+    background-color: #D19C00;
+}
+#posts #post1 #coments #head a
+{
+    text-decoration: none;
+    font-size: large;
+}
+#posts #post1 #coments #head a:hover
+{
+    color: blue;
+    cursor: pointer
+}
+#posts #post1 #coments #contain
+{
+    width: 80%;
+    font-size: 13px;
+    color: #06003A;
+}
+/*****************************/
+#posts #addcoment
+{
+    background-color: #C97A12;
+    color: #fff;
+    text-indent: 30px;
+    padding: 10px;
+    font-size: 20px;
+    float: left;
+    border-radius: 15px;
+}
+#posts #addcoment input[type="text"]
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #6d9093;
+    margin-top: 3px;
+}
+#posts #addcoment input[type="submit"]
+{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 3px;
+    background-color: #3A1E01;
+
+}
+#posts #addcoment input[type="submit"]:hover
+{
+    background-color:#6d9093;
+    cursor: pointer;
+}
+/****************************************/
+#likepost:hover
+{
+    cursor: pointer;
+    color: #3357ff;
+}
+#commentpost:hover
+{
+    cursor: pointer;
+    color: #3e5556;
+}
+
+#like{
+    color: #337AB7;
+    font-weight: bold;
+}
+#dislike{
+
+    color: black;
+    font-weight: bold;
+}
+#like:hover{
+    color: black;
+    font-weight: bold;
+}
+#dislike:hover{
+
+    color:#337AB7;
+    font-weight: bold;
+}

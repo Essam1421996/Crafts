@@ -1,0 +1,49 @@
+#Review
+{
+    background-image: url("../../salfny_images/slide6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.9;
+}
+#Review #content2
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(9,9,9,0.5);
+    color: #EAEAEA;
+}
+#top2
+{
+    text-align: center;
+}
+#top2 h1
+{
+    color: #ff9f1c;
+    font-size:27px;
+}
+#top2 p
+{
+    color: #CECECE;
+    font-size: 20px;
+}
+#user
+{
+    color: #969B9B;
+    font-size: 19px;
+    box-shadow: 4px 4px 4px #ccc,-4px -4px 4px #ccc;
+}
+#user:hover
+{
+    color: #FFF;
+    box-shadow: 3px 3px 3px #AA8003,-3px -3px 3px #AA8003;
+    cursor: pointer;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+#user img
+{
+    border-radius: 50%;
+}

@@ -1,0 +1,60 @@
+#Login
+{
+    background-image: url("../../salfny_images/h.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 40px;
+}
+#logining #loginh
+{
+    background-color: rgba(9,9,9,0.6);
+    padding: 15px;
+}
+#bot
+{
+    background-color: rgba(9,9,9,0.6);
+    padding: 15px;
+}
+#Login #log
+{
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgba(9,9,9,0.5);
+    color: #DDD;
+    border-radius: 5px;
+}
+#Login #log hr
+{
+    width: 50%;
+}
+.form-control
+{
+    text-indent: 10px;
+}
+#logining .btn
+{
+    margin-bottom: 5px;
+}
+#logining input
+{
+    border: none;
+}
+#Login #bottom1 p
+{
+    color: #fff;
+}
+#Login #forget
+{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 15px;
+}
+#Login #forget:hover
+{
+    cursor: pointer;
+    opacity: 1;
+}

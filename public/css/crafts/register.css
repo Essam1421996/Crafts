@@ -1,0 +1,46 @@
+#Register
+{
+    background-image: url("../../salfny_images/rr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 40px;
+}
+#registering #regh
+{
+    background-color: rgba(9,9,9,0.6);
+    padding: 15px;
+}
+#yourimage
+{
+    font-size: 0px;
+}
+#yourimage:hover
+{
+    cursor: pointer;
+}
+#Register #reg
+{
+    padding: 30px;
+    padding-top: 0px;
+    background-color: rgba(9,9,9,0.5);
+    color: #DDD;
+    border-radius: 5px;
+}
+.form-control
+{
+    text-indent: 10px;
+}
+#registering .btn
+{
+    margin-bottom: 5px;
+}
+#registering input
+{
+    border: none;
+}
+#Register #bottom1 p
+{
+    color: #fff;
+}
