@@ -180,10 +180,10 @@
                             <li>
                                 @foreach($imageall as $img)
                                     @if($user->id == $img->user_id)
-                                        <img src="{{asset("img/".$img->picture)}}" width='70px' height='70px'>
+                                        <img src="{{asset('img/'.$img->picture)}}" width='50px' height='50px'>
                                     @endif
                                 @endforeach
-                                <a class="users-list-name" href="#">{{$user->name}}</a>
+                                <a class="" href="#">{{$user->name}}</a>
                                 <span class="users-list-date">{{$user->created_at}}</span>
                             </li>
                         @endforeach
@@ -214,7 +214,7 @@
                     <ul class="users-list clearfix">
                         @foreach($crafts as $craft)
                             <li>
-                                <a class="users-list-name" href="#">{{$craft->name}}</a>
+                                <a class="" href="#">{{$craft->name}}</a>
                                 <span class="users-list-date">{{$craft->created_at}}</span>
                             </li>
                         @endforeach

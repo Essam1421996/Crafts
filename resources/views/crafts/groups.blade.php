@@ -12,7 +12,7 @@
  <div class="row" >
 @foreach($groups as $group)
  
-    <div class="col-md-4 service_box" ><i class="fa fa-cog fa-3x pull-left" style="margin-top:15px;"></i>
+    <div class="col-md-4 col-sm-6 col-xs-12 service_box" ><i class="fa fa-group fa-3x pull-left" id="group-icon" ></i>
     <a href="{{route('crafts',$group->id)}}" style="text-decoration:none;"><h2 style="">{{$group->name}}</h2></a>
        </div>
      

@@ -1,3 +1,4 @@
+
 body
 {
     background-color: #EFEFEF;
@@ -12,7 +13,7 @@ body
 .footer{width:100%;}
 .footer_bottom {
 	padding: 2em 0;
-	background: #1C1E1D;
+	background: #2d3033b8;
         text-align:center;
 }
 .navbar-inverse .navbar-nav > li > a
@@ -337,4 +338,75 @@ body
 
     color:#337AB7;
     font-weight: bold;
+}
+.navbar-brand hvr-hang {
+	color: #1abc9c;
+}
+#brand-content {
+	color: #909dca;
+	font-family: fantasy;
+	letter-spacing: 3px;
+	font-size: 35px;
+	padding-top:30px;
+}
+.first-letter-brand{
+	color: #b9bac7;
+	font-size:45px
+}
+.navbar-fixed-top{
+	font-size: 15px;
+	font-weight: bold
+}
+.footer-content{
+	font-size:40px;
+}
+#facebook{
+	width:55px; 
+	color:#808390
+}
+#twitter{
+	width:55px; 
+	color:#808390
+}
+#linkedin{
+	width:55px; 
+	color:#808390
+}
+#google-plus{
+	width:55px; 
+	color:#808390
+}
+#facebook:hover{
+	color:blue;
+}
+#twitter:hover{
+	color:blue;
+}
+#linkedin:hover{
+	color:blue;
+}
+#google-plus:hover{
+	color:red;
+}
+#group-icon{
+	padding-top: 13px;
+}
+#profile-image-save{
+	padding: 6px;
+	margin-top:5px;
+	margin-bottom:10px;
+	border-radius:0px 4px 4px 0px;
+	text-align:center;
+}
+#changeimage{
+	background-color: rgba(29,29,29,0.64);
+	margin-top:5px; 
+	margin-bottom:10px;
+	font-size: 7.1px;
+     border-radius: 4px 0px 0px 4px;
+}
+#chat-img{
+	margin: 2px;
+	width: 16%;
+	height:16%;
 }

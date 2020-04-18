@@ -1,26 +1,26 @@
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Crafts</title>
- <link rel="stylesheet" href="{{asset('fonts/crafts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
-<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
-        <!-- Bootstrap -->
-        <link type="text/css" rel="stylesheet" href="{{asset('css/crafts/bootstrap.css')}}" />
-        <link href="{{asset('css/crafts/style.css')}}" rel="stylesheet" />
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Crafts</title>		  
+		    <link rel="icon" href="{{asset('/img/craftss.png')}}" type="image/icon">
 
+            <link rel="stylesheet" href="{{asset('fonts/crafts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+			<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+					<!-- Bootstrap -->
+		   	<link type="text/css" rel="stylesheet" href="{{asset('css/crafts/bootstrap.css')}}" />
 
-        <link type="text/css" rel="stylesheet" href="{{asset('css/crafts/hover.css')}}" />
-        <link type="text/css" rel="stylesheet" href="{{asset('css/crafts/animate.css')}}" />
+			<link type="text/css" rel="stylesheet" href="{{asset('css/crafts/hover.css')}}" />
+			<link type="text/css" rel="stylesheet" href="{{asset('css/crafts/animate.css')}}" />
 
-        <link type="text/css" rel="stylesheet" href="{{asset('css/crafts/afterlogin.css')}}"/>
-        <!-- write post -->
+			<link type="text/css" rel="stylesheet" href="{{asset('css/crafts/afterlogin.css')}}"/>
+
         
-        </head>
-
+     </head>
+<body>
 
  <nav class="navbar navbar-inverse">
-        <div class="container">
+        <div class="container" >
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"/>
                 <span class="sr-only">Toggle navigation</span>
@@ -29,7 +29,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ asset('/') }}" id="logo"><h1><b>C</b>rafts</h1></a>
+                 
+                <a class= "navbar-brand hvr-pulse" id="brand-content" href="/"><b class="first-letter-brand">C</b>rafts</a>
+            
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -90,7 +92,8 @@
                             <li class="text-center"><a href="#">View all</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                    <li><a href="{{ route('logout') }}" title="Sign Out" 
+					onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                          <i class="fa fa-sign-out fa-3x"></i></a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                              {{ csrf_field() }}
@@ -108,8 +111,10 @@
 
 <div class="footer">
   <div class="footer_bottom">
-    <div style="font-size:40px;"> <a class="fa fa-facebook social-icon" href="#" style="width:55px;"></a> <a class="fa fa-twitter social-icon" href="#" style="width:55px;"></a> 
-    <a class="fa fa-linkedin social-icon" href="#" style="width:55px;"></a> <a class="fa fa-google-plus social-icon" href="#" style="width:55px;"></a> </div>
+    <div  class="footer-content"> <a class="fa fa-facebook" id="facebook" href="#"></a> 
+	<a class="fa fa-twitter" id="twitter" href="#" ></a> 
+    <a class="fa fa-linkedin" id="linkedin" href="#" ></a> 
+	<a class="fa fa-google-plus" id="google-plus" href="#" ></a> </div>
     <div class="copy">
       <p>Copyright &copy; 2020 </p>
     </div>
@@ -124,6 +129,9 @@
          <script  type="text/javascript" src="{{asset('js/crafts/bootstrap.min.js')}}"></script>
         <script  type="text/javascript" src="{{asset('js/crafts/index.js')}}"></script>
         <script  type="text/javascript" src="{{asset('js/crafts/afterlogin.js')}}"></script>
-                
+        <script  type="text/javascript" src="{{asset('js/crafts/vue.js')}}"></script>
+        <script  type="text/javascript" src="{{asset('js/crafts/index2.js')}}"></script>
+		
+
 
 </html>

@@ -1,6 +1,6 @@
 @extends('crafts.master')
 @section('header')
-            <nav class="navbar navbar-inverse navbar-fixed-top" style="font-size: 15px;font-weight: bold" role="navigation">
+             <nav class="navbar navbar-inverse navbar-fixed-top" style="" role="navigation">
             <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class= "navbar-brand hvr-pulse " href="/" style="color: #1abc9c;font-family: fantasy;letter-spacing: 3px;font-size: 35px"><b style="font-size:45px">C</b>rafts</a>
+                <a class= "navbar-brand hvr-pulse" id="brand-content" href="/"><b class="first-letter-brand">C</b>rafts</a>
             </div>
             <div class="collapse navbar-collapse" id="mynav">
                 <ul class="nav navbar-nav navbar-right" >
@@ -28,7 +28,7 @@
                 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" >
-                <img class="img-responsive center-block" src="../img/restuarant.jpg" alt="pic1" >
+                <img class="img-responsive center-block" src="../img/1.jpg" alt="pic1" >
                     <div class="carousel-caption " style="top:15px;">
                     <div ><h1>Register</h1></div>
 
@@ -187,12 +187,4 @@
     @section('content')
 @endsection
 
-       @section('js')
-       <script src="{{asset('js/jquery.js')}}"></script>
-        <script src="{{asset('js/bootstrap.min.js')}}"></script>
-        <script src="{{asset('js/plugins.js')}}"></script>
-        <script src="{{asset('js/wow.min.js')}}"></script>
-        <script src="{{asset('js/jquery.fancybox.min.js')}}"></script>
-        <script src="{{asset('js/jquery.nicescroll.min.js')}}"></script>
-        <script>new WOW().init();</script>
-       @endsection
+      

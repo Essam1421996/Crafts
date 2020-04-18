@@ -8,14 +8,17 @@ body{padding-top: 40px;overflow: hidden;}
 /**carousel**/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img
 {
-    height: 550px;
+    height: 620px;
     width: 100%;   
+}
+#carousel-example-generic{
+	height:620px;
 }
 .carousel-caption .lead{font-size: 18px;color: #ddd;}
 .carousel-caption
 { 
     background: rgba(1,1,1,.3);
-    bottom: 100px;
+   bottom: 247px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -181,4 +184,18 @@ padding-left:70px;
 
     width: 100%;
     height: 100%;
+}
+#brand-content {
+	color: #909dca;
+	font-family: fantasy;
+	letter-spacing: 3px;
+	font-size: 35px
+}
+.first-letter-brand{
+	color: #b9bac7;
+	font-size:45px
+}
+.navbar-fixed-top{
+	font-size: 15px;
+	font-weight: bold
 }

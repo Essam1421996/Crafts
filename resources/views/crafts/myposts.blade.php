@@ -119,11 +119,8 @@
                         <form action="{{route('storeimage',Auth::user()->id)}}" method="post" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             {{ method_field('POST') }}
-                            <input type="file" id="changeimage" name="userimage" title="add or change picture of profile" class="btn-lg col-lg-8"
-                                   style="background-color: rgba(29,29,29,0.64);margin-top:5px; margin-bottom:10px;font-size: 7.1px;
-                                            border-radius: 4px 0px 0px 4px;">
-                            <button type="submit"  title="save image" class=" btn btn-success btn-md col-lg-4"
-                                    style="margin-top:5px;margin-bottom:10px;border-radius:0px 4px 4px 0px;text-align:center">save</button>
+                            <input type="file" id="changeimage" name="userimage" title="add or change picture of profile" class="btn-lg col-lg-8">
+                         <button type="submit"  title="save image" id="profile-image-save" class=" btn btn-success btn-md col-lg-4">save</button>
                         </form>
                     </div>
                      <h3 style="margin-left: 10px;color: #5b5b5b;"><i class="fa fa-user"></i>{{Auth::user()->name}} </h3>

@@ -1,17 +1,17 @@
 @extends('crafts.master2')
 @section('container')
     <!-- start content -->
-    <section id="Me">
+    <section id="app">
         <div class="container" style="background-color: #222222; border-radius: 10px;border: 2px solid #5cb85c;">
             <div class="col-lg-8" style="overflow: auto; border-right: 2px solid #5cb85c;padding: 15px;background-color: #fff;height: 500px;margin-left: -15px;border-radius: 10px 0px 0px 0px;">
                 @foreach($userimage as $img)
                 @if($user->id==$img->user_id)
-                <img style="margin: 2px;" src="{{asset("img/".$img->picture)}}"
-                     class="img-circle col-lg-3" width='50px' height='50px'>
+                <img src="{{asset('img/'.$img->picture)}}" class="img-circle col-lg-3" id="chat-img">
                      @endif
                      @endforeach
 
                 <h3 class="text-center text-success">{{$user->name}}</h3>
+				<br>
                 <hr>
                 <br>
                 @foreach($chats as $chat)
@@ -35,8 +35,8 @@
                                              class="img-circle col-lg-3" width='50px' height='50px'>
                     @endforeach
                     
-                <h3 style="color: #ffffff; margin-top: -1px;" class="col-lg-5">{{ Auth::user()->name }}</h3>
-                <h5 style="color: #ffffff; margin-top: -20px;" class="col-lg-5 col-lg-offset-4"><i class="fa fa-circle text-success"></i> online</h5>
+                <h3 style="color: #ffffff;" class="col-lg-5">{{ Auth::user()->name }}</h3>
+                <h5 style="color: #ffffff; margin-top: 28px;" class="col-lg-offset-4"><i class="fa fa-circle text-success"></i> online</h5>
                     <hr class="col-lg-11">
                 @foreach($users as $use)
                         @foreach($imageall as $img)
@@ -65,7 +65,7 @@
                         <button class="btn btn-success input-lg col-lg-1" title="send" style="border-radius: 5px 0px 0px 5px;">
                             <i class="fa fa-paper-plane fa-2x"></i></button>
                         <input type="text" style="border: 2px solid #5cb85c;border-radius: 0px 5px 5px 0px;" value="{{ old('comcont') }}"
-                               class=" input-lg col-lg-11" name="message" placeholder="Enter your message..." autocomplete="off" required>
+                               class=" input-lg col-lg-11" name="message" placeholder="Enter your message..." autocomplete="off" v-model='message' v-on:keyup='send' required>
                     </div>
                 </form>
             </div>

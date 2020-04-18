@@ -84,6 +84,13 @@
               @foreach($user_image as $img)
                     <img style="" src="{{asset("img/".$img->picture)}}" width='150px' height='150px'>
                     @endforeach
+					<form action="http://localhost:8000/crafts/afterlogin/user_profile/9" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value="bmzzJ5AMu1sQ8zUI5AgjloorTLMrHWEHn2kPJyEN">
+                            <input type="hidden" name="_method" value="POST">
+                            <input type="file" id="changeimage" name="userimage" title="add or change picture of profile" class="btn-lg col-lg-8" style="background-color: rgba(29,29,29,0.64);margin-top:5px; margin-bottom:10px;font-size: 7.1px;
+                                            border-radius: 4px 0px 0px 4px;">
+                            <button id="profile-image-save" type="submit" title="save image" class=" btn btn-success btn-md col-lg-4" style="margin-top:5px;margin-bottom:10px;border-radius:0px 4px 4px 0px;text-align:center">save</button>
+                        </form>
                    @foreach($profile as $user)
                      <h3 style="margin-left: 10px;color: #5b5b5b;"><i class="fa fa-user"></i>{{$user->name}} </h3>
                     <h3 style="margin-left: 10px;color: #5b5b5b;"><i class="fa fa-home"></i>{{$user->address}} </h3>
